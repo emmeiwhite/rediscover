@@ -1,9 +1,9 @@
 import React from 'react';
 
-function NameComponent() {
+function NameComponent({reality}) {
     return (
         <section>
-            This is a Name Component
+            <h1>Reality is: { reality }</h1>
         </section>
     )
 }

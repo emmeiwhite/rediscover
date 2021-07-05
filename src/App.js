@@ -4,7 +4,7 @@ import NameComponent from "./components/NameComponent";
 function App() {
   return (
     <div className="App">
-      <NameComponent/>
+      <NameComponent reality={"There are no accidents !"}/>
     </div>
   );
 }
