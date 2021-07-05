@@ -36,3 +36,9 @@
     transform: scale(1);
   }
 }
+
+
+main span{
+  display: inline-block;
+  margin:0 1rem;
+}
