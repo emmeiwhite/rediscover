@@ -1,13 +1,9 @@
-import './App.css';
-import NameComponent from "./components/NameComponent";
-import CounterComponent from "./components/CounterComponent";
+import Header from './components/header';
 
 function App() {
   return (
     <div className="App">
-      <NameComponent reality={"There are no accidents !"} />
-      
-      <CounterComponent/>
+        <Header/>
     </div>
   );
 }
